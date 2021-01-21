@@ -1,4 +1,5 @@
 #!/bin/sh
+#helper for wlan_ network_switcher.sh
 number_of_processes="$(pgrep -f 'counter'|wc -l)"
 if [ "$number_of_processes" -eq 2 ]
 then
